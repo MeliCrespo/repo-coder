@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Estilos para el header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-center nav a {
+    color: grey;
+    text-decoration: none;
+    margin: 0 10px;
+    flex: 1;
+   
+}
+
+
+.logo img {
+    height: 50px;
+    flex: 1;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+
+/* Estilos para titulos */
+main {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #666;
+}
+h3 {
+    font-size: 1.3em;
+    color:rgb(3, 3, 110);
+    text-align: left;
+}
+
+/* Este de imagen afecta a todas, tener cuidado con logo nomas. por ahora esta bien, pero cuidado. */
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 10px;    
+}
+
+
+/* Estilos para los párrafos y listas */
+.center-content , .content-noticias {
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.center-content p,.center-content ul, .content-noticias p, .contenedor-grid p{
+    font-size: 1.1em;
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 30px 
+}
+
+.center-content p, .center-content ul, .contenedor-grid p{
+    text-align: justify;
+}
+
+/* Estilos para el grid de sobre nosotros */
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    gap: 20px;
+  }
+  
+.contenedor-grid h3 {
+    text-align: center;
+}
+  
+.columna {
+    padding: 20px;
+    margin: 3em 3em;
+}
+
+
+
+
+/* Estilos para el footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    color: grey;
+    padding: 20px;
+    flex-wrap: wrap;
+    bottom: 0;    
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    text-align: center;
+    font-size: 1em
+}
+
+ .footer-center p {
+    font-weight: bold;
+    font-size: 1.5em
+}
+
+.footer-left a, .footer-center p {
+    color: grey;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-right p {
+    margin: 5px 0;
+}
